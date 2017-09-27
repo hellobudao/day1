@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: #999
+}
+.wrap{
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15% auto;
+    background: #fff;
+}
+.head{
+    width: 100%;
+    height: auto; 
+}
+.head dt{
+    width: 40%;
+    height: 40px;
+    margin: 20px auto;
+}
+.head img{
+    width: 100%;
+    height: 100%;
+    margin: 15px auto;
+}
+.head dd{
+    width: 100%;
+    line-height: 35px;
+    text-align: center;
+}
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: 50px;
+}
+input {
+    width: 80%;
+    height: 38px;
+    margin: 0 auto;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    border:none;
+    text-indent: 35px;
+    border-bottom:1px solid #ccc;
+}
+#btn{
+    height: 45px;
+    background: #46c186;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    text-indent: 0;
+    margin-top: 30px
+}
+form img{
+    position: absolute;
+    left:13%;
+    
+}
+.img1{
+    top:8%;
+    width: 14px;
+    height: 26px;
+}
+.img2{
+    top:41%;
+    width: 14px;
+    height: 18px;
+}
